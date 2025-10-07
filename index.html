@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивные Подарки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Открой Подарок и Получи Смешной Анекдот!</h1>
+    </header>
+
+    <main class="gifts-container">
+        <div class="gift-box" data-gift-id="1">🎁</div>
+        <div class="gift-box" data-gift-id="2">🎁</div>
+        <div class="gift-box" data-gift-id="3">🎁</div>
+        <div class="gift-box" data-gift-id="4">🎁</div>
+        <div class="gift-box" data-gift-id="5">🎁</div>
+        <div class="gift-box" data-gift-id="6">🎁</div>
+    </main>
+
+    <div class="anecdote-modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Твой Анекдот!</h2>
+            <p id="anecdote-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
