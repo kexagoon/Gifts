@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Изменен шрифт */
     background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     color: #333;
     display: flex;
@@ -20,6 +20,7 @@ h1 {
     color: #8338ec;
     font-size: 3em;
     text-shadow: 2px 2px #ffbe0b;
+    font-family: 'Montserrat', sans-serif; /* Изменен шрифт */
 }
 
 .gifts-container {
@@ -143,6 +144,7 @@ h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     text-shadow: 1px 1px #ffbe0b;
+    font-family: 'Montserrat', sans-serif; /* Изменен шрифт */
 }
 
 #anecdote-text {
